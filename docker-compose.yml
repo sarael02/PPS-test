@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  app:
+    image: xxchronosxx/fastapi:latest  # Hardcoded app name
+    ports:
+      - "80:8000"
